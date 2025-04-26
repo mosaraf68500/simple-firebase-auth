@@ -4,10 +4,10 @@ import { Outlet } from 'react-router';
 
 const Root = () => {
     return (
-        <div>
+        <div className='m-1/3 mx-auto'>
             <Navbar></Navbar>
             <Outlet></Outlet>
-            
+
         </div>
     );
 };
